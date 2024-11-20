@@ -13,6 +13,8 @@ public class DemoRestController {
 		
 		String capital = "";
 		capital = text.toUpperCase();
+		capital = text.toUpperCase();
+		
 		
 		return ResponseEntity.ok(capital);
 		
